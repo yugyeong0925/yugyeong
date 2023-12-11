@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    h1, h3{
+    font-family: 'NanumSquareNeo-Variable';
+    }
+
+    @font-face {
+        font-family: 'omyu_pretty';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    p{
+        font-family: 'omyu_pretty';
+    }
+
+    table tr td{
+        text-align: center;
+        border: 0px;
+        border-radius: 20px;
+    }
+
+    tr{
+        background-color: aqua;
+    }
+
+    tr:nth-child(even){
+        background-color: beige;
+    }
+
+    tr:nth-child(odd){
+        background-color: lightblue;
+    }
+
+    tr:hover{
+        background-color: pink;
+    }
+
+    td{
+        padding: 10px;
+    }
+
+    img{
+        border-radius: 20px;
+        box-sizing: 3px 3px 5px black;
+        height: 280px;
+    }
+
+    tr.tr-blank{
+        background-color: white;
+    }
+
+    tr.tr-blank:hover{
+        background-color: white;
+    }
+
+    .해시태그{
+        color: brown;
+    }
